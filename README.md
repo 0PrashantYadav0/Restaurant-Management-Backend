@@ -48,35 +48,49 @@ This project is a backend service for managing restaurant operations, built with
 
 ### API Endpoints
 
+#### Users
+
 - `POST /users/signup`: Register a new user.
 - `POST /users/login`: Authenticate a user.
 - `GET /users`: Retrieve all the user.
 - `GET /users/:id`: Retrieve user details.
+
+#### Menu
 
 - `GET /menu`: Retrieve all menu items.
 - `GET /menu/:id`: Retrieve menu item details.
 - `POST /menu`: Add a new menu item.
 - `PUT /menu/:id`: Update a menu item.
 
+#### Foods
+
 - `GET /foods`: Retrieve all food items.
 - `GET /foods/:id`: Retrieve food item details.
 - `POST /foods`: Add a new food item.
 - `PUT /foods/:id`: Update a food item.
+
+#### Orders
 
 - `GET /orders`: Retrieve all orders.
 - `GET /orders/:id`: Retrieve order details.
 - `POST /orders`: Place a new order.
 - `PUT /orders/:id`: Update an order.
 
+#### OrderItems
+
 - `GET /orderItems`: Retrieve all order items.
 - `GET /orderItems/:id`: Retrieve order item details.
 - `POST /orderItems`: Add a new order item.  
 - `PUT /orderItems/:id`: Update an order item.
 
+#### Invoices
+
 - `GET /invoices`: Retrieve all invoices.
 - `GET /invoices/:id`: Retrieve invoice details.
 - `POST /invoices`: Add a new invoice.
 - `PUT /invoices/:id`: Update an invoice.
+
+#### Tables
 
 - `GET /tables`: Retrieve all tables.
 - `GET /tables/:id`: Retrieve table details.
