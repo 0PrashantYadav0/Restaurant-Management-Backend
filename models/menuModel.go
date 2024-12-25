@@ -8,8 +8,8 @@ import (
 
 type Menu struct {
 	ID         primitive.ObjectID `bson:"_id"`
-	Name       *string            `json:"name" validate:"required, min=2, max=100"`
-	Category   *string            `json:"category" validate:"required, min=2, max=100"`
+	Name       *string            `json:"name" validate:"required,min=2,max=100"`
+	Category   *string            `json:"category" validate:"required,min=2,max=100"`
 	Start_Date *time.Time         `json:"start_date"`
 	End_Date   *time.Time         `json:"end_date"`
 	Created_at time.Time          `json:"created_at"`
