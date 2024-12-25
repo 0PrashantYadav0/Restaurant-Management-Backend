@@ -151,6 +151,8 @@ func UpdateTable() gin.HandlerFunc {
 			return
 		}
 
-		c.JSON(http.StatusOK, result)
+		c.JSON(http.StatusOK, gin.H{
+			"data": result,
+		})
 	}
 }
